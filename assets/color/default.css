@@ -42,35 +42,35 @@ footer .nav-list li a:hover,footer ul.regular li a:hover  {
 /* sequence slider */
 
 .info  h2{
-	background: #94c045;
+	background: #187541;
 }
 
 /* fontawesome icons */
 .icon-square:hover,
 .icon-rounded:hover,
 .icon-circled:hover {
-    background-color: #94c045;
+    background-color: #187541;
 }
 [class^="icon-"].active,
 [class*=" icon-"].active {
-    background-color: #94c045;
+    background-color: #187541;
 }
 
 /* header */
 .navbar .nav li.active {
-	border-top:5px solid #94c045;	
+	border-top:5px solid #187541;	
 
 }
 .navbar .nav li.active a {
-	color:#94c045;	
+	color:#187541;	
 }
 
 .navbar .nav li ul.dropdown-menu li a:hover, .navbar .nav li.active ul.dropdown-menu li a:hover  {
-	background:#94c045;
+	background:#187541;
 	
 }
 .color {
-	background: #94c045;
+	background: #187541;
 	color:#fff;
 }
 
