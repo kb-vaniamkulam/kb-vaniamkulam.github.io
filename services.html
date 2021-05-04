@@ -9,6 +9,7 @@
   <meta name="author" content="">
   <!-- styles -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
   <link href="assets/css/bootstrap.css" rel="stylesheet">
   <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
   <link href="assets/css/docs.css" rel="stylesheet">
@@ -24,6 +25,9 @@
 </head>
 
 <body>
+  <!-- Facebook -->
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="iqVfwlXP"></script>
   <header>
     <!-- Navbar
     ================================================== -->
@@ -37,17 +41,17 @@
           <div class="navigation">
             <nav>
               <ul class="nav topnav">
-                <li>
+                <li class="dropdown active">
                   <a href="index.html">ഹോം</a>
                 </li>
-                <li class="dropdown active">
+                <li>
                   <a href="services.html">സേവനങ്ങൾ</a>
                 </li>
 				<li>
-                  <a href="contact.html">ഡൗൺലോഡുകൾ</a>
+                  <a href="downloads.html">ഡൗൺലോഡുകൾ</a>
                 </li>
 				<li>
-                  <a href="contact.html"><i class="icon-circled icon-thumbs-up"></i>ഫേസ്ബുക് </a>
+                  <a href="https://www.facebook.com/krishibhavanvkm"><i class="icon-circled icon-thumbs-up"></i>ഫേസ്ബുക് </a>
                 </li>
 				<li>
                   <a href="contact.html">ലൊക്കേഷൻ</a>
@@ -117,83 +121,81 @@
       </div>
     </div>
   </section>
-  <!-- Footer
+   <!-- Footer
  ================================================== -->
  <footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="span4">
+        <div class="widget">
+          <h5>Useful links</h5>
+          <ul class="regular">
+            <li><a href="http://www.kau.in/">KAU</a></li>
+            <li><a href="http://moodle.celkau.in/">E-Learning</a></li>
+            <li><a href="http://library.kau.in/">E-Resources</a></li>
+            <li><a href="https://keralaagriculture.gov.in/ml/home-mal/">Dept of Agriculture, Kerala</a></li>
+            <li><a href="http://www.kissankerala.net/home.jsp">Kissan Kerala</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="span4">
+        <div class="widget">
+          <h5>Follow Us On Facebook</h5>
+          <div class="fb-page" data-href="https://www.facebook.com/krishibhavanvkm" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/krishibhavanvkm" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/krishibhavanvkm">Krishi Bhavan Vaniyamkulam</a></blockquote></div>
+        </div>
+      </div>
+      <div class="span4">
+        <div class="widget">
+          <!-- logo -->
+          <a class="brand logo" href="index.html">
+            <img src="ico2.png" alt="">
+          </a>
+          <!-- end logo -->
+          <address>
+            <strong>Vaniyamkulam Grama Panchayat</strong><br>
+             Ottapalam, Palakkad<br>
+             Kerala<br>
+            <abbr title="Landline">Ph:0466 2961321</abbr>
+          </address>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="verybottom">
     <div class="container">
       <div class="row">
-        <div class="span4">
-          <div class="widget">
-            <h5>Browse pages</h5>
-            <ul class="regular">
-              <li><a href="#">Work for us</a></li>
-              <li><a href="#">Creative process</a></li>
-              <li><a href="#">Case study</a></li>
-              <li><a href="#">Scaffold awwards</a></li>
-              <li><a href="#">Meet the team</a></li>
-            </ul>
-          </div>
+        <div class="span12">
+          <p id="foottext">
+            &copy; കൃഷി ഭവൻ വാണിയംകുളം
+          </p>
         </div>
-        <div class="span4">
-          <div class="widget">
-            <h5>Recent blog posts</h5>
-            <ul class="regular">
-              <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-              <li><a href="#">Mea malis nominavi insolens ut</a></li>
-              <li><a href="#">Minim timeam has no aperiri sanctus ei mea per pertinax</a></li>
-              <li><a href="#">Te malorum dignissim eos quod sensibus</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="span4">
-          <div class="widget">
-            <!-- logo -->
-            <a class="brand logo" href="index.html">
-							<img src="ico2.png" alt="">
-						</a>
-            <!-- end logo -->
-            <address>
-							<strong>Registered Companyname, Inc.</strong><br>
-							 8895 Somename Ave, Suite 600<br>
-							 San Francisco, CA 94107<br>
-							<abbr title="Phone">P:</abbr> (123) 456-7890
-						</address>
-          </div>
-        </div>
+        <!--<div class="span6">
+        </div>-->
       </div>
     </div>
-    <div class="verybottom">
-      <div class="container">
-        <div class="row">
-          <div class="span6">
-            <p>
-              &copy; കൃഷി ഭവൻ വാണിയംകുളം
-            </p>
-          </div>
-          <div class="span6">
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+  </div>
+</footer>
 
-  <!-- JavaScript Library Files -->
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/jquery.easing.js"></script>
-  <script src="assets/js/google-code-prettify/prettify.js"></script>
-  <script src="assets/js/modernizr.js"></script>
-  <script src="assets/js/bootstrap.js"></script>
-  <script src="assets/js/jquery.elastislide.js"></script>
-  <script src="assets/js/sequence/sequence.jquery-min.js"></script>
-  <script src="assets/js/sequence/setting.js"></script>
-  <script src="assets/js/jquery.prettyPhoto.js"></script>
-  <script src="assets/js/application.js"></script>
-  <script src="assets/js/jquery.flexslider.js"></script>
-  <script src="assets/js/hover/jquery-hover-effect.js"></script>
-  <script src="assets/js/hover/setting.js"></script>
+<!-- JavaScript Library Files -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.easing.js"></script>
+<script src="assets/js/google-code-prettify/prettify.js"></script>
+<script src="assets/js/modernizr.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/jquery.elastislide.js"></script>
+<script src="assets/js/sequence/sequence.jquery-min.js"></script>
+<script src="assets/js/sequence/setting.js"></script>
+<script src="assets/js/jquery.prettyPhoto.js"></script>
+<script src="assets/js/application.js"></script>
+<script src="assets/js/jquery.flexslider.js"></script>
+<script src="assets/js/hover/jquery-hover-effect.js"></script>
+<script src="assets/js/hover/setting.js"></script>
 
-  <!-- Template Custom JavaScript File -->
-  <script src="assets/js/custom.js"></script>
+<!-- Template Custom JavaScript File -->
+<script src="assets/js/custom.js"></script>
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="iqVfwlXP"></script>
 
 </body>
 </html>
